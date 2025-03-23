@@ -47,7 +47,7 @@ const Header = () => {
             initial={{y: 30, opacity: 0}}
             whileInView={{y: 0, opacity: 1}}
             transition={{duration: 0.6, delay: 1.2}}
-            href="https://drive.google.com/file/d/1VE560yOIW4hDFnnRRcB6WcIHGSBov7xB/view?usp=drive_link" target="_blank" download 
+            href="https://drive.google.com/file/d/1FnL09_KZU5nR0srdxHSk4jZOk6eBOPY6/view?usp=sharing" target="_blank" download 
             className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'>
                 my resume <Image src={assets.download_icon} alt='' className='w-4'/></motion.a>
         </div>

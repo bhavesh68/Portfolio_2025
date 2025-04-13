@@ -42,7 +42,7 @@ const About = ({isDarkMode}) => {
             transition={{duration: 0.6, delay: 0.8}}
             className='flex-1'>
                 <p className='mb-10 max-w-2xl font-Ovo'
-                >I recently graduated from the University of Toronto, where I studied Software Development and gained hands-on experience with technologies like HTML, CSS, JavaScript, React, Node.js, MongoDB, and Express to build efficient, user-friendly web applications.</p>
+                >Beyond technical skills, I bring a collaborative mindset, strong problem-solving abilities, and a user-first approach to development. I've worked on several team-based projects where clear communication, adaptability, and attention to detail were essential. Whether building responsive interfaces, designing APIs, or debugging complex issues, I focus on delivering clean, maintainable code and meaningful user experiences.</p>
 
                 <motion.ul
                 initial={{opacity: 0}}

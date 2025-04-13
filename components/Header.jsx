@@ -11,7 +11,7 @@ const Header = () => {
         whileInView={{ scale: 1 }}
         transition={{ duration: 0.8, type: 'spring', stiffness: 100 }}
       >
-        <Image src={assets.profile_img} alt='' className='rounded-full w-32' priority/>
+        <Image src={assets.profile_img} alt='' className='rounded-full w-32' priority />
       </motion.div>
       <motion.h3
         initial={{ y: -20, opacity: 0 }}
@@ -23,15 +23,15 @@ const Header = () => {
         initial={{ y: -30, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.5 }}
-        className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-        A web developer with a strong foundation in full-stack development.</motion.h1>
+        className='text-xl sm:text-3xl lg:text-[36px] font-Ovo'>
+        A Web Developer skilled in both front-end and back-end technologies</motion.h1>
 
       <motion.p
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.7 }}
         className='max-w-2xl mx-auto font-Ovo'>
-       I am a web developer based in Toronto, ON, passionate about creating responsive and user-friendly applications. Through my studies and personal projects, I have built a strong foundation in HTML, CSS, JavaScript, React, Node.js, and other modern web technologies.
+        I completed an intensive, hands-on Full Stack Web Development certification from the University of Toronto, where I gained practical experience building scalable, user-focused applications using modern technologies like JavaScript, React, Node.js, and SQL. My training, combined with a strong passion for continuous learning and real-world project work, has equipped me with the skills and mindset needed to thrive in the tech industry and contribute effectively from day one.
       </motion.p>
 
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
@@ -41,7 +41,7 @@ const Header = () => {
           transition={{ duration: 0.6, delay: 1 }}
           href="#contact"
           className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'
-        >contact me <Image src={assets.right_arrow_white} alt='' className='w-4' priority/></motion.a>
+        >contact me <Image src={assets.right_arrow_white} alt='' className='w-4' priority /></motion.a>
 
         <motion.a
           initial={{ y: 30, opacity: 0 }}

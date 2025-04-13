@@ -78,31 +78,61 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Blog project',
+        title: 'Blog Project',
         description: 'HTML/CSS/JavaScript',
         link: 'https://bhavesh68.github.io/Blog-Fusion/',    
         bgImage: '/work-1.png',
     },
     {
-        title: 'Weather app',
+        title: 'Weather App',
         description: 'JavaScript/Node/TypeScript',
         link: 'https://city-weather-app-i088.onrender.com/',
         bgImage: '/work-2.png',
     },
     {
-        title: 'E-Commerce site',
-        description: 'MERN Stack',
-        // link: link to be updated
+        title: 'Finance Managing App',
+        description: 'React/MongoDB/TypeScript/Python',
+        link: 'https://github.com/bhavesh68/real-money-magic',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'In progress',
+        description: 'Coming Soon',
+        // title: 'UI/UX designing',
+        // description: 'UI/UX Design',
         // link: link to be updated
         bgImage: '/work-4.png',
     },
 ]
 
+export const miniWorkData = [
+    {
+        title:  'Github Candidate Search',
+        description:  'JavaScript/React/Node/Rest API' ,
+        link: 'https://github-candidate-search-wxzs.onrender.com/',    
+        bgImage: '/work-1.png',
+    },
+    {
+        title: 'Kanban Board',
+        description: 'TypeScript/Node/React',
+        link: 'https://gta-kanban-board.onrender.com/',
+        bgImage: '/work-2.png',
+    },
+    {
+        title: 'Book Search Engine',
+        description: 'MERN Stack/GraphQL/RESTful API/Apollo Server',
+        link: 'https://gta-book-search-engine.onrender.com/',
+        bgImage: '/work-4.png',
+    },
+    {
+        title: 'In progress',
+        description: 'Coming Soon',
+        // title: 'UI/UX designing',
+        // description: 'UI/UX Design',
+        // link: link to be updated
+        bgImage: '/work-4.png',
+    },
+]
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
     { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
